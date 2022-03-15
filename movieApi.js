@@ -55,3 +55,6 @@ export const UpdateMovie = async(id, mName, genre, price, pic, date, time, audi,
         console.log(error);
     }
 }
+export const test  = () => {
+    return true;
+} 
